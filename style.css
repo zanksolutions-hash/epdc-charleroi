@@ -39,8 +39,8 @@ h3.on-band { font-size: 1.3rem; }
 .btn:hover { background: var(--accent); }
 
 /* Accueil */
-.hero { display: grid; grid-template-columns: 1fr 1fr; gap: 48px; align-items: center; padding-block: 32px 64px; }
-.hero-logo { width: min(460px, 100%); margin-bottom: 20px; }
+.hero { padding-block: 48px 72px; text-align: center; }
+.hero-logo { width: min(520px, 100%); margin: 0 auto 20px; }
 .photo { width: 100%; border: 1.5px solid var(--ink); border-radius: 24px; }
 
 /* Bandeaux */
@@ -84,8 +84,8 @@ a.way:hover { outline: 2px solid var(--ink); }
 .foot { padding-block: 0 32px; font-size: .85rem; text-align: center; }
 
 @media (max-width: 800px) {
-  .hero, .cols, .project, .why, .give, .contact { grid-template-columns: 1fr; gap: 32px; }
-  .hero { padding-top: 16px; }
+  .cols, .project, .why, .give, .contact { grid-template-columns: 1fr; gap: 32px; }
+  .hero { padding-block: 24px 48px; }
   .why { margin-top: 56px; }
   .nav-in { gap: 8px 16px; padding: 10px 0; }
   .brand { font-size: 1.2rem; margin-right: auto; }
